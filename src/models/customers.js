@@ -14,31 +14,17 @@ const customerSchema={
         unique:true,
         allowNull:false,
     },
-    address_1:{
+    password:{
         type:Sequelize.STRING,
+        allowNull:false
     },
-    address_2:{
+    address:{
         type:Sequelize.STRING,
     },
     city:{
         type:Sequelize.STRING,
     },
-    region:{
-        type:Sequelize.STRING,
-    },
     postal_code:{
-        type:Sequelize.STRING,
-    },
-    country:{
-        type:Sequelize.STRING,
-    },
-    shipping_region_id:{
-        type:Sequelize.INTEGER,
-    },
-    day_phone:{
-        type:Sequelize.STRING,
-    },
-    eve_phone:{
         type:Sequelize.STRING,
     },
     mob_phone:{

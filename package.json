@@ -23,7 +23,8 @@
     "express": "^4.17.1",
     "joi": "^17.2.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

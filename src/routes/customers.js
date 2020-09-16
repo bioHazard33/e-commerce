@@ -10,5 +10,4 @@ router.get("/", async (req, res) => {
     res.status(result.status).send({ data: result.data, error: result.error });
 });
 
-
 module.exports = router;
