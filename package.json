@@ -19,9 +19,11 @@
   "homepage": "https://github.com/bioHazard33/e-commerce#readme",
   "dependencies": {
     "await-to-js": "^2.1.1",
+    "bcrypt": "^5.0.0",
     "env-cmd": "^10.1.0",
     "express": "^4.17.1",
     "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.5",
     "winston": "^3.3.3"
