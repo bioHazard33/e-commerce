@@ -31,6 +31,12 @@ createdModels['Categories'].hasMany(createdModels['Products'],{
     }
 })
 
+createdModels['Products'].belongsTo(createdModels['Categories'],{
+    foreignKey:'category_id',
+    targetKey:'category_id',
+    constraints:true
+})
+
 const dbSync=async ()=>{
     await client.sync({force:false});
 }

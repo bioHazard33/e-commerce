@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("../config/logger/winston");
 const router = express.Router();
-const { getAllProducts,getProductById } = require('../services/productsService')
+const { getAllProducts,getProductById,getProducsByCategoryId } = require('../services/productsService')
 
 router.get('/',async (req,res)=>{
     let page=1,limit=20,description_length=200;
@@ -29,6 +29,21 @@ router.get('/:product_id',async (req,res)=>{
     }
 
     const result=await getProductById(product_id)
+    console.log(result)
+    res.status(result.status).send({ data: result.data, error: result.error });
+})
+
+router.get('/inCategory/:category_id',async (req,res)=>{
+    let category_id;
+    try{
+        category_id=parseInt(req.params.category_id)
+    }
+    catch(e){
+        logger.error(`Tried to get categories in departments : ${req.params.category_id}`)
+        return res.status(400).send({data:null,error:'Invalid Categoty Id'})
+    }
+
+    const result=await getProducsByCategoryId(category_id)
     console.log(result)
     res.status(result.status).send({ data: result.data, error: result.error });
 })

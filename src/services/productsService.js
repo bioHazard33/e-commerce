@@ -47,3 +47,29 @@ module.exports.getProductById = this.getProductById = async (product_id) => {
     logger.debug("Succesfully get product by ID");
     return { status: 200, data: data, error: null };
 };
+
+module.exports.getProducsByCategoryId=getProducsByCategoryId=async(category_id)=>{
+    logger.info(`Getting Products in the Category ${category_id}`);
+
+    let [error, data] = await to(
+        CategoriesModel.findAll({
+            where: {
+                category_id,
+            },
+            include: {
+                model: ProductsModel,
+                attributes: ["product_id", "name", "description"],
+            },
+        })
+    );
+    if (error) {
+        logger.error(error);
+        return { status: 500, data: null, error: "Database Error" };
+    }
+
+    if (data === null || data.length===0)
+        return { status: 400, data: null, error: `No Category with ID: ${category_id}` };
+
+    logger.debug("Succesfully get Products by Category ID");
+    return { status: 200, data: data, error: null };
+}

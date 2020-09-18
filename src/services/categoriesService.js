@@ -1,5 +1,5 @@
 const logger = require("../config/logger/winston");
-const { CategoriesModel, dbSync, DepartmentsModel } = require("../database/mysql/sequelize");
+const { CategoriesModel, dbSync, DepartmentsModel,ProductsModel } = require("../database/mysql/sequelize");
 const { to } = require("await-to-js");
 
 module.exports.getCategories = getCategories = async (sort, page, limit) => {
@@ -73,3 +73,31 @@ module.exports.getCategoriesByDepartmentId = getCategoriesByDepartmentId = async
     logger.debug("Succesfully get categories by Department ID");
     return { status: 200, data: data, error: null };
 };
+
+module.exports.getCategoryByProductId=getCategoryByProductId=async(product_id)=>{
+    logger.info(`Getting Category for the product ${product_id}`);
+
+    let [error, data] = await to(
+        ProductsModel.findOne({
+            where: {
+                product_id,
+            },
+            attributes:['product_id','name'],
+            include: {
+                model: CategoriesModel,
+                attributes: ["category_id", "name","department_id"],
+            },
+        })
+    );
+    if (error) {
+        console.log(error)
+        logger.error(error);
+        return { status: 500, data: null, error: "Database Error" };
+    }
+
+    if (data === null || data.length===0)
+        return { status: 400, data: null, error: `No Product with ID: ${product_id}` };
+
+    logger.debug("Succesfully get category by Product ID");
+    return { status: 200, data: data, error: null };
+}
