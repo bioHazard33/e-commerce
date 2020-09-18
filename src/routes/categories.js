@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("../config/logger/winston");
 const router = express.Router();
-const { getCategories, getCategoryById,getCategoriesByDepartmentId } = require('../services/categories')
+const { getCategories, getCategoryById,getCategoriesByDepartmentId } = require('../services/categoriesService')
 
 router.get('/',async (req,res)=>{
     let sort='category_id',page=1,limit=20;   // *Defaults

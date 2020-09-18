@@ -2,6 +2,7 @@ const express = require("express");
 const customerRoutes = require("./routes/customers");
 const categoriesRoutes=require('./routes/categories')
 const productsRoutes=require('./routes/products')
+const departmentRoutes=require('./routes/departments')
 const {dbSync} =require('./database/mysql/sequelize')
 
 const app = express();
@@ -17,6 +18,7 @@ app.get('/sync',async (req,res)=>{
 app.use("/customers", customerRoutes);
 app.use('/categories',categoriesRoutes)
 app.use('/products',productsRoutes)
+app.use('/departments',departmentRoutes)
 
 app.listen(PORT, (req, res) => {
     console.log("Server is running on Port : ", PORT);

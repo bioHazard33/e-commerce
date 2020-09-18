@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("../config/logger/winston");
 const router = express.Router();
-const { getAllProducts,getProductById } = require('../services/products')
+const { getAllProducts,getProductById } = require('../services/productsService')
 
 router.get('/',async (req,res)=>{
     let page=1,limit=20,description_length=200;
