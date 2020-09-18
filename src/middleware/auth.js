@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const logger = require("../config/winston");
+const logger = require("../config/logger/winston");
 
 const auth = async (req, res, next) => {
     let payload;

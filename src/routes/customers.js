@@ -11,7 +11,6 @@ const {
 	updateCustomer,
  } = require("../services/customersService");
 const auth = require("../middleware/auth");
-const { to } = require("await-to-js");
 
 // ** Get Customer
 

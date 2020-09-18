@@ -1,6 +1,6 @@
 const { CustomersModel, dbSync } = require("../database/mysql/sequelize");
 const { to } = require("await-to-js");
-const logger = require("../config/winston");
+const logger = require("../config/logger/winston");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
