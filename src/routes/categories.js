@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("../config/logger/winston");
 const router = express.Router();
-const { getCategories, getCategoryById,getCategoriesByDepartmentId,getCategoryByProductId } = require('../services/categoriesService')
+const categoriesService = require('../services/categoriesService');
 
 router.get('/',async (req,res)=>{
     let sort='category_id',page=1,limit=20;   // *Defaults
@@ -16,7 +16,7 @@ router.get('/',async (req,res)=>{
         return res.status(400).send('Invalid Query Parameters')
     }
 
-    const result = await getCategories(sort,page,limit);
+    const result = await categoriesService.getCategories(sort,page,limit);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.error });
 })
@@ -31,7 +31,7 @@ router.get('/:category_id',async (req,res)=>{
         return res.status(400).send({data:null,error:'Invalid Category Id'})
     }
 
-    const result=await getCategoryById(category_id)
+    const result=await categoriesService.getCategoryById(category_id)
     console.log(result)
     res.status(result.status).send({ data: result.data, error: result.error });
 })
@@ -46,7 +46,7 @@ router.get('/inDepartment/:department_id',async (req,res)=>{
         return res.status(400).send({data:null,error:'Invalid Department Id'})
     }
 
-    const result=await getCategoriesByDepartmentId(department_id)
+    const result=await categoriesService.getCategoriesByDepartmentId(department_id)
     console.log(result)
     res.status(result.status).send({ data: result.data, error: result.error });
     
@@ -62,7 +62,7 @@ router.get('/inProduct/:product_id',async (req,res)=>{
         return res.status(400).send({data:null,error:'Invalid Product Id'})
     }
 
-    const result=await getCategoryByProductId(product_id)
+    const result=await categoriesService.getCategoryByProductId(product_id)
     console.log(result)
     res.status(result.status).send({ data: result.data, error: result.error })
 })

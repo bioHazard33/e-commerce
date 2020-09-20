@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/sync',async (req,res)=>{
-    await dbSync()
+    await dbSync(true)
     res.send('DB Synced')
 })
 

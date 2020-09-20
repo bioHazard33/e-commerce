@@ -8,7 +8,9 @@ const models=[
     'Customers',
     'Departments',
     'Categories',
-    'Products'
+    'Products',
+    'Orders',
+    'ProductOrders'
 ]
 
 let createdModels={}
@@ -37,8 +39,22 @@ createdModels['Products'].belongsTo(createdModels['Categories'],{
     constraints:true
 })
 
-const dbSync=async ()=>{
-    await client.sync({force:false});
+createdModels['Orders'].belongsToMany(createdModels['Products'],{
+    through:'ProductOrders',
+    as:'products',
+    foreignKey:'order_id',
+    otherKey:'product_id'
+})
+
+createdModels['Products'].belongsToMany(createdModels['Orders'],{
+    through:'ProductOrders',
+    as:'orders',
+    foreignKey:'product_id',
+    otherKey:'order_id'
+})
+
+const dbSync=async (force)=>{
+    await client.sync({force});
 }
 
 models.forEach((model)=>{
