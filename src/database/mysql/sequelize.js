@@ -1,5 +1,4 @@
 const {Sequelize,DataTypes}=require('sequelize')
-const customerSchema = require('../../models/customers')
 
 const client=new Sequelize("mysql://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@"+process.env.DB_IP+":3306/"+process.env.DB_NAME)
 const dirname='../../models/'
@@ -10,7 +9,9 @@ const models=[
     'Categories',
     'Products',
     'Orders',
-    'ProductOrders'
+    'ProductOrders',
+    'Cart',
+    'CartWithProducts'
 ]
 
 let createdModels={}
@@ -33,6 +34,13 @@ createdModels['Categories'].hasMany(createdModels['Products'],{
     }
 })
 
+createdModels['Customers'].hasMany(createdModels['Orders'],{
+    foreignKey:{
+        name:'customer_id',
+        onDelete:'cascade'
+    }
+})
+
 createdModels['Products'].belongsTo(createdModels['Categories'],{
     foreignKey:'category_id',
     targetKey:'category_id',
@@ -51,6 +59,26 @@ createdModels['Products'].belongsToMany(createdModels['Orders'],{
     as:'orders',
     foreignKey:'product_id',
     otherKey:'order_id'
+})
+
+createdModels['Cart'].belongsToMany(createdModels['Products'],{
+    through:'CartWithProducts',
+    as:'products',
+    foreignKey:'cart_id',
+    otherKey:'product_id'
+})
+
+createdModels['Products'].belongsToMany(createdModels['Cart'],{
+    through:'CartWithProducts',
+    as:'cart',
+    foreignKey:'product_id',
+    otherKey:'cart_id'
+})
+
+createdModels['Customers'].hasOne(createdModels['Cart'],{
+    foreignKey:{
+        name:'customer_id'
+    }
 })
 
 const dbSync=async (force)=>{

@@ -52,13 +52,7 @@ const customersService = {
         catch(e){
             logger.error(`While deleting password on customer with ID : ${data.customer_id}`)
         }
-        const accessToken = jwt.sign(
-            { customer_id: data.customer_id },
-            process.env.JWT_SECRET,
-            {
-                expiresIn: "12h",
-            }
-        );
+        const accessToken =await generateToken(data.customer_id)
 
         result={customer:data,accessToken,expiresIn:'12h'}
         
@@ -92,13 +86,7 @@ const customersService = {
 
         customer["customer_id"] = data.dataValues.customer_id;
 
-        const accessToken = jwt.sign(
-            { customer_id: data.dataValues.customer_id },
-            process.env.JWT_SECRET,
-            {
-                expiresIn: "12h",
-            }
-        );
+        const accessToken =await generateToken(data.dataValues.customer_id)
         delete customer["password"];
 
         let createdCustomer = { customer, accessToken, expiresIn: "12h" };
@@ -139,5 +127,16 @@ const customersService = {
         return { status: 200, data: customer, error: null };
     },
 };
+
+generateToken=async(customer_id)=>{
+    const accessToken = jwt.sign(
+        { customer_id },
+        process.env.JWT_SECRET,
+        {
+            expiresIn: "12h",
+        }
+    );
+    return accessToken
+}
 
 module.exports=customersService

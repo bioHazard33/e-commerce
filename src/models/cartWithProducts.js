@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize")
 
-const productOrdersSchema={
-    productOrders_id:{
+const cartWithProducts={
+    cartWithProducts_id:{
         type:Sequelize.INTEGER,
         autoIncrement:true,
         primaryKey:true
@@ -12,4 +12,4 @@ const productOrdersSchema={
     }
 }
 
-module.exports=productOrdersSchema
+module.exports=cartWithProducts
