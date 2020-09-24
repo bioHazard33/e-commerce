@@ -313,3 +313,675 @@
 {"message":"Error while adding Product 14 to Cart 2361fba7-6602-49c6-817d-40c256eeab07, Error: SequelizeUniqueConstraintError: Validation error","level":"error"}
 {"message":"Error while adding Product 14 to Cart 2361fba7-6602-49c6-817d-40c256eeab07, Error: SequelizeUniqueConstraintError: Validation error","level":"error"}
 {"message":"Successfully get products in Cart with ID : 2361fba7-6602-49c6-817d-40c256eeab07","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token ','\nE:\\Development\\e-commerce\\src\\services\\cartService.js:31\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:31\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Mon Sep 21 2020 17:06:49 GMT+0530 (India Standard Time)","process":{"pid":16892,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61239296,"heapTotal":51404800,"heapUsed":26047552,"external":2667487,"arrayBuffers":1210976}},"os":{"loadavg":[0,0,0],"uptime":21741},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token ','\nE:\\Development\\e-commerce\\src\\services\\cartService.js:33\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:33\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Mon Sep 21 2020 17:07:09 GMT+0530 (India Standard Time)","process":{"pid":10476,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61554688,"heapTotal":51929088,"heapUsed":26278784,"external":2673515,"arrayBuffers":1217004}},"os":{"loadavg":[0,0,0],"uptime":21762},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token ','\nE:\\Development\\e-commerce\\src\\services\\cartService.js:33\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:33\n        return {200,data,error};\n                   ^\n\nSyntaxError: Unexpected token ','\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Mon Sep 21 2020 17:07:23 GMT+0530 (India Standard Time)","process":{"pid":9440,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61194240,"heapTotal":51666944,"heapUsed":26241120,"external":2681709,"arrayBuffers":1225198}},"os":{"loadavg":[0,0,0],"uptime":21776},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: Error: Missing where attribute in the options parameter passed to findOrCreate. Please note that the API has changed, and is now options only (an object with where, defaults keys, transaction etc.)","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 3 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: Error: Missing where attribute in the options parameter passed to findOrCreate. Please note that the API has changed, and is now options only (an object with where, defaults keys, transaction etc.)","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=4 , error : null","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=14 , error : null","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=14 , error : null","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=14 , error : null","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=14 , error : null","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 14 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while adding Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Error while adding Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=4 , error : null","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=1 , error : null","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=1 , error : null","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(452e1333-9b10-40dc-94b9-e2b075776625), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(a56e0189-b85f-44d8-a36c-c4ea7fd06c1f), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(317dcc0c-9071-421d-909d-7d910acccd67), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CarWithProduct with cart ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 and Product ID=1 , error : null","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token ';'\nE:\\Development\\e-commerce\\src\\services\\cartService.js:57\n        return { status: 201, data;data[0], error: null };\n                                  ^\n\nSyntaxError: Unexpected token ';'\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:57\n        return { status: 201, data;data[0], error: null };\n                                  ^\n\nSyntaxError: Unexpected token ';'\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 18:03:31 GMT+0530 (India Standard Time)","process":{"pid":18552,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61165568,"heapTotal":51666944,"heapUsed":26135392,"external":2677242,"arrayBuffers":1220731}},"os":{"loadavg":[0,0,0],"uptime":19788},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(34c5b9cf-c4fb-43e4-96ba-f2e0e872775c), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"error"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 1 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 11 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 26 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 27 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Getting product with ID=37","level":"info"}
+{"message":"Getting product with ID=27","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: missing ) after argument list\nE:\\Development\\e-commerce\\src\\services\\cartService.js:147\n        console.log(\"asdasdasd!!!!\"+error+\"!!!!!\"data)\n                                          ^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:147\n        console.log(\"asdasdasd!!!!\"+error+\"!!!!!\"data)\n                                          ^^^^^^^\n\nSyntaxError: missing ) after argument list\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 18:17:27 GMT+0530 (India Standard Time)","process":{"pid":10496,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":56172544,"heapTotal":50356224,"heapUsed":21317088,"external":1912362,"arrayBuffers":455851}},"os":{"loadavg":[0,0,0],"uptime":20624},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token '='\nE:\\Development\\e-commerce\\src\\services\\cartService.js:138\n            { transaction, err } = await startTransaction();\n                                 ^\n\nSyntaxError: Unexpected token '='\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:138\n            { transaction, err } = await startTransaction();\n                                 ^\n\nSyntaxError: Unexpected token '='\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 18:36:29 GMT+0530 (India Standard Time)","process":{"pid":12512,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61046784,"heapTotal":51404800,"heapUsed":26147088,"external":2685666,"arrayBuffers":1229155}},"os":{"loadavg":[0,0,0],"uptime":21766},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token '='\nE:\\Development\\e-commerce\\src\\services\\cartService.js:139\n            { transaction, err } = await startTransaction();\n                                 ^\n\nSyntaxError: Unexpected token '='\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\services\\cartService.js:139\n            { transaction, err } = await startTransaction();\n                                 ^\n\nSyntaxError: Unexpected token '='\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 18:36:43 GMT+0530 (India Standard Time)","process":{"pid":19744,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61407232,"heapTotal":51929088,"heapUsed":26144416,"external":2671512,"arrayBuffers":1215001}},"os":{"loadavg":[0,0,0],"uptime":21779},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43862 , error : null","level":"error"}
+{"message":"Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43862 or Product with ID 27 does not exists","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 or Product with ID 34 does not exists","level":"error"}
+{"message":"Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 or Product with ID 12 does not exists","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 30 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 30 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 30 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Getting product with ID=2","level":"info"}
+{"message":"Getting product with ID=3","level":"info"}
+{"message":"Getting Products with params : page : 1 , limit : 20","level":"info"}
+{"message":"Getting product with ID=3","level":"info"}
+{"message":"Getting product with ID=4","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 4 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 100 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`e-commerce`.`cartwithproducts`, CONSTRAINT `cartwithproducts_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE CASCADE ON UPDATE CASCADE)","level":"error"}
+{"message":"Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 or Product with ID 100 does not exists","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Server Error","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: Error: Missing where attribute in the options parameter passed to findOrCreate. Please note that the API has changed, and is now options only (an object with where, defaults keys, transaction etc.)","level":"error"}
+{"message":"Server Error","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: Error: Missing where attribute in the options parameter passed to findOrCreate. Please note that the API has changed, and is now options only (an object with where, defaults keys, transaction etc.)","level":"error"}
+{"message":"Server Error","level":"error"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Server Error","level":"error"}
+{"message":"Error while adding Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863, Error: TypeError: Cannot read property 'push' of undefined","level":"error"}
+{"message":"Server Error","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update CartWithProduct  with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Got a for gettings products in cart","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Got [object Object] for emptying cart","level":"error"}
+{"message":"Got [object Object] for emptying cart","level":"error"}
+{"message":"Got [object Object] for emptying cart","level":"error"}
+{"message":"Got 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 for emptying cart","level":"error"}
+{"message":"Got 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 for emptying cart","level":"error"}
+{"message":"Got 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 for emptying cart","level":"error"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected token '.'\nE:\\Development\\e-commerce\\src\\routes\\cart.js:49\n    let {error,value}=cartValidation.cartIdValidation.validate({cart_idreq.params.cart_id})\n                                                                          ^\n\nSyntaxError: Unexpected token '.'\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\index.js:6:18)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\routes\\cart.js:49\n    let {error,value}=cartValidation.cartIdValidation.validate({cart_idreq.params.cart_id})\n                                                                          ^\n\nSyntaxError: Unexpected token '.'\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\index.js:6:18)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 21:37:16 GMT+0530 (India Standard Time)","process":{"pid":1888,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61071360,"heapTotal":51666944,"heapUsed":26104728,"external":2668450,"arrayBuffers":1211939}},"os":{"loadavg":[0,0,0],"uptime":32613},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":18,"file":"E:\\Development\\e-commerce\\src\\index.js","function":null,"line":6,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully Emptied cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Getting product with ID=4","level":"info"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(635fa32c-f33e-49fa-a530-cfb6b57659b7), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Error while update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863 , error : Error: commit has been called on this transaction(52bff5e9-a8e9-40ff-b68b-43ca756f4b7e), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)","level":"error"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Carrt ID:3d0b7856-4cbf-44c6-8595-b2fdc5a43363 does not exists","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 or Product with ID 14 does not exists","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected identifier\nE:\\Development\\e-commerce\\src\\config\\validations\\cartValidation.js:13\n    cartIdValidation:Joi.object({\n    ^^^^^^^^^^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:5:22)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","stack":"E:\\Development\\e-commerce\\src\\config\\validations\\cartValidation.js:13\n    cartIdValidation:Joi.object({\n    ^^^^^^^^^^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at wrapSafe (internal/modules/cjs/loader.js:1053:16)\n    at Module._compile (internal/modules/cjs/loader.js:1101:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n    at Module.load (internal/modules/cjs/loader.js:985:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n    at Module.require (internal/modules/cjs/loader.js:1025:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (E:\\Development\\e-commerce\\src\\routes\\cart.js:5:22)\n    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)","exception":true,"date":"Wed Sep 23 2020 23:10:53 GMT+0530 (India Standard Time)","process":{"pid":16284,"uid":null,"gid":null,"cwd":"E:\\Development\\e-commerce","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.3","argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Development\\e-commerce\\src\\index.js"],"memoryUsage":{"rss":61292544,"heapTotal":51929088,"heapUsed":26171568,"external":2679235,"arrayBuffers":1222724}},"os":{"loadavg":[0,0,0],"uptime":38230},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1053,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":985,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1025,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":22,"file":"E:\\Development\\e-commerce\\src\\routes\\cart.js","function":null,"line":5,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1137,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while refresing Price","level":"error"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while refresing Price","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Error while refresing Price","level":"error"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Deleted Product 28 from Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Deleted Product 28 from Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Refresing price for Cart ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully added Product 28 to Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully get products in Cart with ID : 3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Cart 3d0b7856-4cbf-44c6-8595-b2fdc5a43863 does not exists","level":"error"}
+{"message":"Successfully Update cart with ID=3d0b7856-4cbf-44c6-8595-b2fdc5a43863","level":"info"}
+{"message":"Successfully generated cart with ID : 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Successfully get products in Cart with ID : 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Refresing price for Cart ID : 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Successfully get products in Cart with ID : 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Successfully Update cart with ID=15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Successfully added Product 28 to Cart 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Cart 15a4e7b1-4cee-4215-8cfe-7efe223e6339 does not exists","level":"error"}
+{"message":"Carrt ID:15a4e7b1-4cee-4215-8cfe-7efe223e6339 does not exists","level":"info"}
+{"message":"Successfully deleted cart 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
+{"message":"Successfully deleted cart 15a4e7b1-4cee-4215-8cfe-7efe223e6339","level":"info"}
