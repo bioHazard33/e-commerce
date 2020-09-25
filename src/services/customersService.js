@@ -126,6 +126,23 @@ const customersService = {
         delete customer["password"];
         return { status: 200, data: customer, error: null };
     },
+
+    getCustomerAddressDetails:async(customer_id)=>{
+        let [error,data]=await to(CustomersModel.findOne({
+            where:{
+                customer_id
+            },
+            attributes:['customer_id','address','city','postal_code']
+        }))
+        if(data==null){
+            return {status:400,error:`Customer with ID : ${customer_id} does not exists`}
+        }
+        if(error){
+            logger.error(`While getting customer ${customer_id} Address , error:${error}`)
+            return {status:500,data:null,error:`Server Error`}
+        }
+        return {status:200,data,error}
+    }
 };
 
 generateToken=async(customer_id)=>{

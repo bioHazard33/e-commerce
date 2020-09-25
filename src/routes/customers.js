@@ -43,7 +43,7 @@ router.post('/login',async(req,res)=>{
 // * Update Customer
 
 router.put("/", auth, async (req, res) => {
-    let { error, value } = customersValidation.validate(req.body);
+    let { error, value } = customersValidation.signupValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
@@ -56,7 +56,7 @@ router.put("/", auth, async (req, res) => {
 // * Update Address
 
 router.put("/address", auth, async (req, res) => {
-    let { error, value } = addressValidation.validate(req.body);
+    let { error, value } = customersValidation.addressValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
@@ -69,7 +69,7 @@ router.put("/address", auth, async (req, res) => {
 // * Update Credit Card
 
 router.put("/creditCard", auth, async (req, res) => {
-    let { error, value } = creditCardValidation.validate(req.body);
+    let { error, value } = customersValidation.creditCardValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }

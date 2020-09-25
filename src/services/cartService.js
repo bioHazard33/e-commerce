@@ -62,7 +62,7 @@ const cartService = {
                 attributes: ["cart_id", "cart_total"],
                 include: {
                     model: ProductsModel,
-                    attributes: ["product_id", "price"],
+                    attributes: ["product_id",'name', "price"],
                     as: "products",
                     through: {
                         model: CartWithProductsModel,
@@ -73,7 +73,6 @@ const cartService = {
         );
 
         if (error) {
-            console.log(error);
             logger.error(`While getting products in cart with ID : ${cart_id}  , Error : ${error}`);
             return {
                 status: 500,
@@ -90,13 +89,10 @@ const cartService = {
     },
 
     refreshPrice: async (cart_id, transaction) => {
-        console.log("NOw UPDATING PRICE");
-
         logger.info(`Refresing price for Cart ID : ${cart_id}`);
         let cart_total = 0;
         let result = await cartService.getProductsInCart(cart_id);
 
-        console.log(result);
         if (result.data == null) {
             return { status: 500, data: null, error: `Error while refresing Price` };
         } else if (
@@ -329,12 +325,12 @@ const cartService = {
 };
 
 startTransaction = async () => {
-    let [error, transaction] = await to(client.transaction());
-    if (error) {
+    let [err, transaction] = await to(client.transaction());
+    if (err) {
         logger.error(`Cannot start Transaction`);
-        return { status: 500, data: null, error: `Cannot start Transaction` };
+        return { status: 500, data: null, err: `Cannot start Transaction` };
     }
-    return { transaction, error: null };
+    return { transaction, err: null };
 };
 
 findOrCreate = async (insert_object, transaction) => {
@@ -344,7 +340,7 @@ findOrCreate = async (insert_object, transaction) => {
                 cart_id: insert_object.cart_id,
                 product_id: insert_object.product_id,
             },
-            default: { insert_object },
+            defaults: insert_object,
             options: { transaction },
         })
     );
