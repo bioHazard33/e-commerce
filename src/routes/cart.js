@@ -1,8 +1,8 @@
 const express = require("express");
 const logger = require("../config/logger/winston");
-const router = express.Router();
 const cartService = require("../services/cartService");
 const cartValidation=require('../config/validations/cartValidation');
+const router = express.Router();
 
 router.get("/generateUniqueId", async (req, res) => {
     const result = await cartService.generateUUID();

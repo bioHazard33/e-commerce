@@ -134,7 +134,7 @@ const ordersService = {
             };
         }
 
-        if (data == null)
+        if (data == [])
             return { status: 404, data: null, error: `No Order exists with on Customer ID : ${customer_id}` };
 
         logger.info(`Successfully get Orders on Customer with ID : ${customer_id}`);

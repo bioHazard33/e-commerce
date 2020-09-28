@@ -5,6 +5,7 @@ const productsRoutes=require('./routes/products')
 const departmentRoutes=require('./routes/departments')
 const cartRoutes=require('./routes/cart')
 const ordersRoutes=require('./routes/orders')
+const reviewsRoutes=require('./routes/reviews')
 
 const {dbSync} =require('./database/mysql/sequelize')
 
@@ -24,6 +25,7 @@ app.use('/products',productsRoutes)
 app.use('/departments',departmentRoutes)
 app.use('/shoppingCart',cartRoutes)
 app.use('/orders',ordersRoutes)
+app.use('/reviews',reviewsRoutes)
 
 app.listen(PORT, (req, res) => {
     console.log("Server is running on Port : ", PORT);

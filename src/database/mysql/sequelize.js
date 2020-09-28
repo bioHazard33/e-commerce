@@ -11,7 +11,8 @@ const models=[
     'Orders',
     'ProductOrders',
     'Cart',
-    'CartWithProducts'
+    'CartWithProducts',
+    'Reviews'
 ]
 
 let createdModels={}
@@ -21,30 +22,23 @@ models.forEach((model)=>{
 })
 
 createdModels['Departments'].hasMany(createdModels['Categories'],{
-    foreignKey:{
-        name:'department_id',
-        onDelete: 'cascade'
-    }
+    foreignKey:'department_id',
+    onDelete: 'cascade'
 })
 
 createdModels['Categories'].hasMany(createdModels['Products'],{
-    foreignKey:{
-        name:'category_id',
-        onDelete:'cascade'
-    }
+    foreignKey:'category_id',
+    onDelete:'cascade'
 })
 
 createdModels['Customers'].hasMany(createdModels['Orders'],{
-    foreignKey:{
-        name:'customer_id',
-        onDelete:'cascade'
-    }
+    foreignKey:'customer_id',
+    onDelete:'cascade'
 })
 
 createdModels['Products'].belongsTo(createdModels['Categories'],{
     foreignKey:'category_id',
     targetKey:'category_id',
-    constraints:true
 })
 
 createdModels['Orders'].belongsToMany(createdModels['Products'],{
@@ -75,10 +69,17 @@ createdModels['Products'].belongsToMany(createdModels['Cart'],{
     otherKey:'cart_id'
 })
 
-createdModels['Customers'].hasOne(createdModels['Cart'],{
-    foreignKey:{
-        name:'customer_id'
-    }
+createdModels['Products'].hasMany(createdModels['Reviews'],{
+    foreignKey:'product_id',
+    onDelete:'cascade'
+})
+
+createdModels['Customers'].hasMany(createdModels['Reviews'],{
+    foreignKey:'customer_id'
+})
+
+createdModels['Reviews'].belongsTo(createdModels['Customers'],{
+    foreignKey:'customer_id'
 })
 
 const dbSync=async (force)=>{
