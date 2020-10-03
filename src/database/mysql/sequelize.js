@@ -1,7 +1,7 @@
 const {Sequelize,DataTypes}=require('sequelize')
 
 const client=new Sequelize("mysql://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@"+process.env.DB_IP+":3306/"+process.env.DB_NAME)
-const dirname='../../models/'
+const dirname='./models/'
 
 const models=[
     'Customers',

@@ -1,6 +1,7 @@
 const express = require("express");
 const customersValidation = require("../config/validations/customers");
 const customersService = require("../services/customersService");
+const authService = require('../services/authService')
 const auth = require("../middleware/auth");
 const logger = require("../config/logger/winston");
 
@@ -23,7 +24,7 @@ router.post("/", async (req, res) => {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
 
-    const result = await customersService.signUpCustomer(value);
+    const result = await  authService.signUpCustomer(value);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.error });
 });
@@ -35,7 +36,7 @@ router.post('/login',async(req,res)=>{
         return res.status(400).send({data:null,error:error.details[0].message})
     }
 
-    const result=await customersService.loginCustomer(value)
+    const result=await authService.loginCustomer(value)
 
     res.status(result.status).send({ data: result.data, error: result.error });
 })
