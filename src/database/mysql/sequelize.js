@@ -1,14 +1,18 @@
 const {Sequelize,DataTypes}=require('sequelize')
-const customerSchema = require('../../models/customers')
 
 const client=new Sequelize("mysql://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@"+process.env.DB_IP+":3306/"+process.env.DB_NAME)
-const dirname='../../models/'
+const dirname='./models/'
 
 const models=[
     'Customers',
     'Departments',
     'Categories',
-    'Products'
+    'Products',
+    'Orders',
+    'ProductOrders',
+    'Cart',
+    'CartWithProducts',
+    'Reviews'
 ]
 
 let createdModels={}
@@ -18,21 +22,68 @@ models.forEach((model)=>{
 })
 
 createdModels['Departments'].hasMany(createdModels['Categories'],{
-    foreignKey:{
-        name:'department_id',
-        onDelete: 'cascade'
-    }
+    foreignKey:'department_id',
+    onDelete: 'cascade'
 })
 
 createdModels['Categories'].hasMany(createdModels['Products'],{
-    foreignKey:{
-        name:'category_id',
-        onDelete:'cascade'
-    }
+    foreignKey:'category_id',
+    onDelete:'cascade'
 })
 
-const dbSync=async ()=>{
-    await client.sync({force:false});
+createdModels['Customers'].hasMany(createdModels['Orders'],{
+    foreignKey:'customer_id',
+    onDelete:'cascade'
+})
+
+createdModels['Products'].belongsTo(createdModels['Categories'],{
+    foreignKey:'category_id',
+    targetKey:'category_id',
+})
+
+createdModels['Orders'].belongsToMany(createdModels['Products'],{
+    through:'ProductOrders',
+    as:'products',
+    foreignKey:'order_id',
+    otherKey:'product_id'
+})
+
+createdModels['Products'].belongsToMany(createdModels['Orders'],{
+    through:'ProductOrders',
+    as:'orders',
+    foreignKey:'product_id',
+    otherKey:'order_id'
+})
+
+createdModels['Cart'].belongsToMany(createdModels['Products'],{
+    through:'CartWithProducts',
+    as:'products',
+    foreignKey:'cart_id',
+    otherKey:'product_id'
+})
+
+createdModels['Products'].belongsToMany(createdModels['Cart'],{
+    through:'CartWithProducts',
+    as:'cart',
+    foreignKey:'product_id',
+    otherKey:'cart_id'
+})
+
+createdModels['Products'].hasMany(createdModels['Reviews'],{
+    foreignKey:'product_id',
+    onDelete:'cascade'
+})
+
+createdModels['Customers'].hasMany(createdModels['Reviews'],{
+    foreignKey:'customer_id'
+})
+
+createdModels['Reviews'].belongsTo(createdModels['Customers'],{
+    foreignKey:'customer_id'
+})
+
+const dbSync=async (force)=>{
+    await client.sync({force});
 }
 
 models.forEach((model)=>{

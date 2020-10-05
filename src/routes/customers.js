@@ -1,47 +1,55 @@
 const express = require("express");
-const router = express.Router();
-const {
-    customersValidation,
-    addressValidation,
-    creditCardValidation
-} = require("../config/validations/customers");
-const { 
-	getCustomerByID,
-	signUpCustomer,
-	updateCustomer,
- } = require("../services/customersService");
+const customersValidation = require("../config/validations/customers");
+const customersService = require("../services/customersService");
+const authService = require('../services/authService')
 const auth = require("../middleware/auth");
+const logger = require("../config/logger/winston");
+
+const router = express.Router();
+
 
 // ** Get Customer
 
 router.get("/", auth, async (req, res) => {
     const customer_id = parseInt(req["customer_id"]);
-    let result = await getCustomerByID(customer_id);
+    let result = await customersService.getCustomerByID(customer_id);
     res.status(result.status).send({ data: result.data, error: result.error });
 });
 
 // * Signup Customer
 
 router.post("/", async (req, res) => {
-    let { error, value } = customersValidation.validate(req.body);
+    let { error, value } = customersValidation.signupValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
 
-    const result = await signUpCustomer(value);
+    const result = await  authService.signUpCustomer(value);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.error });
 });
 
+
+router.post('/login',async(req,res)=>{
+    let {error,value}=customersValidation.loginValidation.validate(req.body)
+    if(error){
+        return res.status(400).send({data:null,error:error.details[0].message})
+    }
+
+    const result=await authService.loginCustomer(value)
+
+    res.status(result.status).send({ data: result.data, error: result.error });
+})
+
 // * Update Customer
 
 router.put("/", auth, async (req, res) => {
-    let { error, value } = customersValidation.validate(req.body);
+    let { error, value } = customersValidation.signupValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
     value["customer_id"] = req["customer_id"];
-    const result = await updateCustomer(value);
+    const result = await customersService.updateCustomer(value);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.null });
 });
@@ -49,12 +57,12 @@ router.put("/", auth, async (req, res) => {
 // * Update Address
 
 router.put("/address", auth, async (req, res) => {
-    let { error, value } = addressValidation.validate(req.body);
+    let { error, value } = customersValidation.addressValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
     value["customer_id"] = req["customer_id"];
-    const result = await updateCustomer(value);
+    const result = await customersService.updateCustomer(value);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.null });
 });
@@ -62,12 +70,12 @@ router.put("/address", auth, async (req, res) => {
 // * Update Credit Card
 
 router.put("/creditCard", auth, async (req, res) => {
-    let { error, value } = creditCardValidation.validate(req.body);
+    let { error, value } = customersValidation.creditCardValidation.validate(req.body);
     if (error) {
         return res.status(400).send({ data: null, error: error.details[0].message });
     }
     value["customer_id"] = req["customer_id"];
-    const result = await updateCustomer(value);
+    const result = await customersService.updateCustomer(value);
     console.log(result);
     res.status(result.status).send({ data: result.data, error: result.null });
 });
