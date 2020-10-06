@@ -15,7 +15,6 @@ This repository contains backend code for an e-commerce webiste written on NodeJ
 
 ## ER Diagram
 
-![Alt Text](ER diagram)
 <img src="./er_diag.svg">
 
 ## Postman Collection 
