@@ -13,5 +13,10 @@ This repository contains backend code for an e-commerce webiste written on NodeJ
 - Now visit `localhost:3000/sync` to create tables automatically in the DB.
 - Download Postman Collection from below and start hitting the APIs :rocket:
 
+## ER Diagram
+
+![Alt Text](ER diagram)
+<img src="./er_diag.svg">
+
 ## Postman Collection 
 Download Postman Collection from this [link](https://www.getpostman.com/collections/4029f44c1388a7657123)
