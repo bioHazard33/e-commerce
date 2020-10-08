@@ -11,13 +11,13 @@ This repository contains backend code for an e-commerce webiste written on NodeJ
 
 ## Execution Instructions 
 - In the cloned repo folder inside the `config` folder , create a file name `dev.env`
-- Paste in your environment variables in this format : 
-` PORT=<EXPRESS_PORT>
-  DB_IP=<MYSQL_PORT>
-  DB_USER=<DB_USERNAME>
-  DB_PASSWORD=<DB_PASSWORD>
-  DB_NAME=e-commerce
-  JwT_SECRET=<JWT_SECRET_FOR_ENCRYPTION>
+- Paste in your environment variables in this format : <br/>
+` PORT=<EXPRESS_PORT>` <br/>
+  `DB_IP=<MYSQL_PORT>` <br/>
+  `DB_USER=<DB_USERNAME>` <br/>
+  `DB_PASSWORD=<DB_PASSWORD>` <br/>
+  `DB_NAME=e-commerce` <br/>
+  `JwT_SECRET=<JWT_SECRET_FOR_ENCRYPTION>` <br/>
 `
 - Run your Database Server (You can create a MySQL Apache server using [XAMPP](https://www.apachefriends.org/download.html)).
 - Create a DB named `e-commerce` using your `phpMyAdmin` dashboard.
