@@ -18,7 +18,7 @@ This repository contains backend code for an e-commerce webiste written on NodeJ
   `DB_PASSWORD=<DB_PASSWORD>` <br/>
   `DB_NAME=e-commerce` <br/>
   `JwT_SECRET=<JWT_SECRET_FOR_ENCRYPTION>` <br/>
-`
+  
 - Run your Database Server (You can create a MySQL Apache server using [XAMPP](https://www.apachefriends.org/download.html)).
 - Create a DB named `e-commerce` using your `phpMyAdmin` dashboard.
 - Add a script in `scripts` in `package.json` : `"dev":"env-cmd -f src/config/dev.env nodemon src/index.js"`.
