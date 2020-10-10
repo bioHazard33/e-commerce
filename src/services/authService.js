@@ -89,4 +89,9 @@ generateToken=async(customer_id)=>{
     return accessToken
 }
 
+bcryptPassword=async(password)=>{
+    let hashedPassoword=await bcrypt.hash(password,5);
+    return hashedPassoword
+}
+
 module.exports=authService

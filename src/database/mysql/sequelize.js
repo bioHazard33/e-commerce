@@ -1,6 +1,6 @@
 const {Sequelize,DataTypes}=require('sequelize')
 
-const client=new Sequelize("mysql://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@"+process.env.DB_IP+":3306/"+process.env.DB_NAME)
+const client=new Sequelize("mysql://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@"+process.env.DB_IP+":3306/"+process.env.DB_NAME,{logging:false})
 const dirname='./models/'
 
 const models=[
@@ -18,7 +18,7 @@ const models=[
 let createdModels={}
 
 models.forEach((model)=>{
-    createdModels[model]=client.define(model,require(dirname+model))
+    createdModels[model]=client.define(model,require(dirname+model[0].toLowerCase()+model.substr(1)))
 })
 
 createdModels['Departments'].hasMany(createdModels['Categories'],{
