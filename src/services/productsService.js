@@ -37,6 +37,7 @@ const productsService = {
                 where: {
                     product_id: product_id,
                 },
+                attributes : { exclude:['createdAt','updatedAt'] }
             })
         );
 
@@ -56,7 +57,7 @@ const productsService = {
         logger.info(`Getting Products in the Category ${category_id}`);
 
         let [error, data] = await to(
-            CategoriesModel.findAll({
+            CategoriesModel.findOne({
                 where: {
                     category_id,
                 },
@@ -83,7 +84,7 @@ const productsService = {
         logger.info(`Getting Products in the Department ${department_id}`);
 
         let [error, data] = await to(
-            DepartmentsModel.findAll({
+            DepartmentsModel.findOne({
                 where: {
                     department_id,
                 },
