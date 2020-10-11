@@ -4,7 +4,7 @@ const router = express.Router();
 const categoriesService = require('../services/categoriesService');
 
 router.get('/',async (req,res)=>{
-    let sort='category_id',page=1,limit=20;   // *Defaults
+    let sort='category_id',page=1,limit=10;   // *Defaults
     
     let validSort=['category_id','name']
     try{
@@ -58,7 +58,7 @@ router.get('/inProduct/:product_id',async (req,res)=>{
         product_id=parseInt(req.params.product_id)
     }
     catch(e){
-        logger.error(`Tried to get categories in departments : ${req.params.product_id}`)
+        logger.error(`Tried to get category by a product : ${req.params.product_id}`)
         return res.status(400).send({data:null,error:'Invalid Product Id'})
     }
 

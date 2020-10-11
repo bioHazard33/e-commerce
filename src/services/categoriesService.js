@@ -17,6 +17,9 @@ const categoriesService = {
                 order: [[sort, "ASC"]],
                 offset: (page - 1) * 20,
                 limit: limit,
+                attributes:{
+                    exclude:['createdAt','updatedAt']
+                }
             })
         );
 
@@ -37,6 +40,7 @@ const categoriesService = {
                 where: {
                     category_id: category_id,
                 },
+                attributes :{ exclude : ['createdAt','updatedAt'] }
             })
         );
 
@@ -56,10 +60,11 @@ const categoriesService = {
         logger.info(`Getting Categories in the department ${department_id}`);
 
         let [error, data] = await to(
-            DepartmentsModel.findAll({
+            DepartmentsModel.findOne({
                 where: {
                     department_id,
                 },
+                attributes:['department_id','name','description'],
                 include: {
                     model: CategoriesModel,
                     attributes: ["category_id", "name", "description"],
