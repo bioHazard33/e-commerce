@@ -29,6 +29,7 @@ const departmentsService = {
                 where: {
                     department_id,
                 },
+                attributes:{exclude : ['createdAt','updatedAt']}
             })
         );
         if (error) {
