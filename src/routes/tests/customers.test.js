@@ -1,33 +1,10 @@
 const request=require('supertest')
-const bcrypt = require('bcrypt')
-const jwt=require('jsonwebtoken')
-
-const { CustomersModel } = require("../../database/mysql/sequelize");
 const app=require('../../app')
 
-const customerOne={
-    customer_id:1,
-    name:'myname',
-    email:'myemail@gmail.com',
-    password:'mypassword',
-    accessToken:jwt.sign(
-        { customer_id : 1 },
-        process.env.JWT_SECRET,
-        {
-            expiresIn: "12h",
-        }
-    )
-}
+const { customerOne,setupDB } = require('./db')
+const { CustomersModel } = require("../../database/mysql/sequelize");
 
-beforeAll(async ()=>{
-    await CustomersModel.destroy({where:{}})
-    await CustomersModel.create({
-        customer_id:customerOne.customer_id,
-        name:customerOne.name,
-        email:customerOne.email,
-        password:await bcrypt.hash(customerOne.password,5)
-    })
-})
+beforeAll(setupDB)
 
 // * Actual Tests
 

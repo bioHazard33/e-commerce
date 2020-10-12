@@ -12,10 +12,10 @@ const {dbSync} =require('./database/mysql/sequelize')
 const app=express()
 app.use(express.json());
 
-app.get('/sync',async (req,res)=>{
-    await dbSync(false)
-    res.send('DB Synced')
-})
+// app.get('/sync',async (req,res)=>{
+//     await dbSync(false)
+//     res.send('DB Synced')
+// })
 
 app.use("/customers", customerRoutes);
 app.use('/categories',categoriesRoutes)

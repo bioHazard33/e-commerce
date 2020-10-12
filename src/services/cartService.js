@@ -18,12 +18,12 @@ const cartService = {
         let { transaction, err } = await startTransaction();
         if (err) return transaction;
 
-        let { data, error } = await findOrCreate(insert_object, transaction);
+        let { status,data, error } = await findOrCreate(insert_object, transaction);
 
         if (error) {
             logger.error(error);
             await transaction.rollback();
-            return { status: 500, data, error };
+            return { status, data, error };
         }
 
         if (data[1] === false) {
@@ -355,9 +355,9 @@ findOrCreate = async (insert_object, transaction) => {
                 error: `Cart with ID : ${insert_object.cart_id} or Product with ID ${insert_object.product_id} does not exists`,
             };
         }
-        return { data: null, error: "Server Error" };
+        return {status:500 , data: null, error: "Server Error" };
     }
-    return { data, error };
+    return { status:201 ,data, error };
 };
 
 module.exports = cartService;
